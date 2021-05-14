@@ -1,4 +1,4 @@
-package com.troy.io.bio.p1;
+package com.troy.io.bio.base;
 
 import java.io.BufferedReader;
 import java.io.IOException;
