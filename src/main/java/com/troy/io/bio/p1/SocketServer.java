@@ -10,9 +10,8 @@ import java.net.Socket;
 public class SocketServer {
 
     public static void main(String[] args) {
-        System.out.println("test");
         try {
-            ServerSocket serverSocket = new ServerSocket(9000);
+            ServerSocket serverSocket = new ServerSocket(9001);
             while (true){
                 Socket socket = serverSocket.accept();
                 if (socket != null){
